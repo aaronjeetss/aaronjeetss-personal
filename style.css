@@ -1,11 +1,7 @@
-/* style.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-}
-
-input, button {
-    margin-top: 10px;
+#spaceship {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100px; /* Adjust based on your preference */
 }
