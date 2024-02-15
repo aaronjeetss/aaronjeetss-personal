@@ -27,3 +27,10 @@ h1 {
     min-width: 50px; /* Ensures the image doesn't get too small; adjust as needed */
 }
 
+@media (max-width: 600px) {
+    #spaceship {
+        width: 15vw; /* Larger percentage for smaller screens */
+        max-width: 80px; /* Adjust max size for small screens */
+    }
+}
+
