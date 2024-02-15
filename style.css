@@ -16,10 +16,14 @@ h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
 #spaceship {
     position: fixed;
-    bottom: 0;
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
     left: 50%;
     transform: translateX(-50%);
-    max-width: 100px; /* Adjust based on your preference */
+    width: 10vw; /* Dynamic width based on viewport width */
+    max-width: 100px; /* Prevents the image from getting too large */
+    min-width: 50px; /* Ensures the image doesn't get too small; adjust as needed */
 }
+
