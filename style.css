@@ -17,15 +17,6 @@ h1 {
 }
 
 
-#spaceship {
-    position: fixed;
-    bottom: 10px; /* Adjust the distance from the bottom as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 10vw; /* Dynamic width based on viewport width */
-    max-width: 100px; /* Prevents the image from getting too large */
-    min-width: 50px; /* Ensures the image doesn't get too small; adjust as needed */
-}
 
 @media (max-width: 600px) {
     #spaceship {
