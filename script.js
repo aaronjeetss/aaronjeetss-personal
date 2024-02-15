@@ -1,6 +1,10 @@
 // script.js
 let secretNumber = Math.floor(Math.random() * 10) + 1;
 
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.getElementById('guessButton').addEventListener('click', checkGuess);
+});
+
 function checkGuess() {
     const guess = document.getElementById('guess').value;
     const feedback = document.getElementById('feedback');
@@ -8,7 +12,6 @@ function checkGuess() {
     if (guess == secretNumber) {
         feedback.textContent = 'Congratulations! You got it right!';
         feedback.style.color = 'green';
-        // Reset the game
         setTimeout(function() {
             secretNumber = Math.floor(Math.random() * 10) + 1;
             feedback.textContent = '';
