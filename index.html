@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aaron's Page</title>
+    <title>Guessing Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hi, my name is Aaron</h1>
+    <h1>Number Guessing Game</h1>
+    <p>Guess a number between 1 and 10:</p>
+    <input type="number" id="guess" min="1" max="10">
+    <button onclick="checkGuess()">Guess</button>
+    <p id="feedback"></p>
+    <script src="script.js"></script>
 </body>
 </html>
